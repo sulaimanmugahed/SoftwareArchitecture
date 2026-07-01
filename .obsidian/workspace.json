@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5a160942500c80a1",
+        "id": "d5929e922b230976",
         "type": "tabs",
         "children": [
           {
-            "id": "40ca79b5f97129e0",
+            "id": "70a7babaa6729e75",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": 106.181340068584,
-                  "y": -367.01805474156066,
-                  "zoom": -0.3333333333333334
+                  "x": -467.5775250947521,
+                  "y": -204.3431699576488,
+                  "zoom": -1.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -186,15 +186,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "40ca79b5f97129e0",
+  "active": "70a7babaa6729e75",
   "lastOpenFiles": [
-    "Layered-architcture.webp",
-    "Simple-microservices.webp",
-    "Event-driven-architecture.webp",
-    "hexagonal-architecture.webp",
-    "ChatGPT Image Jul 1, 2026, 03_24_51 PM.png",
-    "Vertical Slice.md",
+    "plugin-arch.png",
+    "microservices-arch.png",
+    "event-driven.png",
+    "event-driven arch.jpg",
+    "modular-architecture.png",
+    "Vertical-Slice.png",
+    "virtcal-slice architecture.webp",
     "Untitled.canvas",
+    "Onion-Architecture.png",
+    "Onion-Architecture (2).png",
+    "Virtical.png",
+    "Clean-Architecture.jpg",
+    "Vertical Slice.md",
     "Overview.md",
     "vertical-slice-img.md",
     "Untitled.base",
