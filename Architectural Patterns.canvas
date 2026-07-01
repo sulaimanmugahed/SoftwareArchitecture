@@ -19,10 +19,10 @@
 		{"id":"ccf58ad3f9d62ca2","type":"text","text":"#### Distributed / Service Based Patterns","x":-1903,"y":-675,"width":355,"height":50},
 		{"id":"b6217912d0a54f1f","type":"file","file":"microservices-arch.png","x":-2296,"y":-508,"width":433,"height":277},
 		{"id":"ea3f7522ba365495","type":"text","text":"#### Microservices Architecture","x":-2217,"y":-143,"width":275,"height":59,"color":"1"},
+		{"id":"39e81df9ac8246ef","type":"file","file":"event-driven arch.jpg","x":-1640,"y":-509,"width":529,"height":274},
 		{"id":"54ef207b83796b56","type":"text","text":"#### Event-Driven Architecture","x":-1513,"y":-143,"width":275,"height":59,"color":"1"},
 		{"id":"416592b1d997ec27","type":"file","file":"virtcal-slice architecture.webp","x":-60,"y":-179,"width":280,"height":288},
-		{"id":"0be3b22b3e25ea4e","type":"text","text":"#### Vertical Slice Architecture","x":-54,"y":159,"width":268,"height":50,"color":"1"},
-		{"id":"39e81df9ac8246ef","type":"file","file":"event-driven arch.jpg","x":-1640,"y":-509,"width":529,"height":274}
+		{"id":"0be3b22b3e25ea4e","type":"text","text":"#### Vertical Slice Architecture","x":-54,"y":159,"width":268,"height":50,"color":"1"}
 	],
 	"edges":[
 		{"id":"bc7b7855921372a9","fromNode":"4e1e99fe8cb63814","fromSide":"bottom","toNode":"ccf58ad3f9d62ca2","toSide":"top"},

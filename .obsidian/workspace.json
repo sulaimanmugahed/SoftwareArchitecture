@@ -16,8 +16,8 @@
                 "file": "Architectural Patterns.canvas",
                 "viewState": {
                   "x": -510.52662038483425,
-                  "y": -614.8811368871986,
-                  "zoom": -1.3333333333333333
+                  "y": 88.15480895414052,
+                  "zoom": -1.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -186,7 +186,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "339a1f49807ebcc8",
+  "active": "70a7babaa6729e75",
   "lastOpenFiles": [
     "plugin-arch.png",
     "microservices-arch.png",
