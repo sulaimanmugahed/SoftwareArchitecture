@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Architectural Patterns.canvas",
                 "viewState": {
-                  "x": -467.5775250947521,
-                  "y": -204.3431699576488,
-                  "zoom": -1.6666666666666665
+                  "x": -510.52662038483425,
+                  "y": -614.8811368871986,
+                  "zoom": -1.3333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "title": "Architectural Patterns"
             }
           }
         ]
@@ -186,7 +186,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "70a7babaa6729e75",
+  "active": "339a1f49807ebcc8",
   "lastOpenFiles": [
     "plugin-arch.png",
     "microservices-arch.png",
@@ -195,7 +195,7 @@
     "modular-architecture.png",
     "Vertical-Slice.png",
     "virtcal-slice architecture.webp",
-    "Untitled.canvas",
+    "Architectural Patterns.canvas",
     "Onion-Architecture.png",
     "Onion-Architecture (2).png",
     "Virtical.png",
