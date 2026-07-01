@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"4e1e99fe8cb63814","type":"text","text":"### Architectural Patterns","x":-280,"y":-880,"width":260,"height":60},
+		{"id":"33cc258d120a75e1","type":"text","text":"#### Monolithic Patterns","x":152,"y":-675,"width":227,"height":50},
+		{"id":"ccf58ad3f9d62ca2","type":"text","text":"#### Distributed / Service Based Patterns","x":-720,"y":-675,"width":355,"height":50},
+		{"id":"2caf299c34749d51","type":"text","text":"#### Layered","x":600,"y":-539,"width":120,"height":50},
+		{"id":"863bc6b7a8e93c40","type":"text","text":"#### Domain-Centric","x":324,"y":-489,"width":187,"height":50},
+		{"id":"df299581d2824fd4","type":"text","text":"#### - Clean Architecture\n#### - Onion Architecture\n#### - Hexagonal Architecture","x":286,"y":-340,"width":263,"height":160},
+		{"id":"be57b78fd974fe9b","type":"text","text":"#### Modular","x":-150,"y":-539,"width":137,"height":50},
+		{"id":"d5cf8599250e1639","type":"text","text":"\n#### - N-Tier","x":598,"y":-400,"width":125,"height":60},
+		{"id":"1c024d20f1342bac","type":"text","text":"#### Event-Driven (Pub/Sub)","x":-490,"y":-539,"width":250,"height":50},
+		{"id":"8f123336f3ac6434","type":"text","text":"#### Microservices","x":-810,"y":-539,"width":180,"height":50},
+		{"id":"b25f500ef9d4a456","x":60,"y":-489,"width":157,"height":50,"type":"text","text":"#### Vertical Slice"}
+	],
+	"edges":[
+		{"id":"bc7b7855921372a9","fromNode":"4e1e99fe8cb63814","fromSide":"bottom","toNode":"ccf58ad3f9d62ca2","toSide":"top"},
+		{"id":"598bbe8e690f406e","fromNode":"4e1e99fe8cb63814","fromSide":"bottom","toNode":"33cc258d120a75e1","toSide":"top"},
+		{"id":"6ca2b3051144c5ff","fromNode":"33cc258d120a75e1","fromSide":"bottom","toNode":"2caf299c34749d51","toSide":"top"},
+		{"id":"0bd435d60337ecc4","fromNode":"33cc258d120a75e1","fromSide":"bottom","toNode":"863bc6b7a8e93c40","toSide":"top"},
+		{"id":"dea7ad83f068e16c","fromNode":"33cc258d120a75e1","fromSide":"bottom","toNode":"be57b78fd974fe9b","toSide":"top"},
+		{"id":"91019c168a287d67","fromNode":"ccf58ad3f9d62ca2","fromSide":"bottom","toNode":"8f123336f3ac6434","toSide":"top"},
+		{"id":"feb82dc2780c3fc1","fromNode":"ccf58ad3f9d62ca2","fromSide":"bottom","toNode":"1c024d20f1342bac","toSide":"top"},
+		{"id":"9bc1b24f596cb7a6","fromNode":"863bc6b7a8e93c40","fromSide":"bottom","toNode":"df299581d2824fd4","toSide":"top"},
+		{"id":"7a80f8bc56b5c31a","fromNode":"2caf299c34749d51","fromSide":"bottom","toNode":"d5cf8599250e1639","toSide":"top"},
+		{"id":"eae39c2d7a0b82c5","fromNode":"33cc258d120a75e1","fromSide":"bottom","toNode":"b25f500ef9d4a456","toSide":"top"}
+	]
+}
