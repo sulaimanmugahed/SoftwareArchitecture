@@ -17,6 +17,8 @@
 
 ## Architectural Patterns:
 
+Architectural Patterns are standard ways to structure a software system. They show how the main components are organized, connected, and work together.
+
 
 
 
