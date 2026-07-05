@@ -15,9 +15,9 @@
               "state": {
                 "file": "Architectural Patterns.canvas",
                 "viewState": {
-                  "x": -510.52662038483425,
-                  "y": 88.15480895414052,
-                  "zoom": -1.6666666666666665
+                  "x": 188.23608740409307,
+                  "y": -744.4630399262094,
+                  "zoom": -1.1102230246251565e-16
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "79f95edb7f045e8c",
@@ -188,6 +189,9 @@
   },
   "active": "70a7babaa6729e75",
   "lastOpenFiles": [
+    "cqrs.webp",
+    "cqrsAndEventSourcing.png",
+    "event-sourcing.svg",
     "plugin-arch.png",
     "microservices-arch.png",
     "event-driven.png",
@@ -197,9 +201,6 @@
     "virtcal-slice architecture.webp",
     "Architectural Patterns.canvas",
     "Onion-Architecture.png",
-    "Onion-Architecture (2).png",
-    "Virtical.png",
-    "Clean-Architecture.jpg",
     "Vertical Slice.md",
     "Overview.md",
     "vertical-slice-img.md",

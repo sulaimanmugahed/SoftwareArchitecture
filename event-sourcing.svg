@@ -1,0 +1,111 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" fill="url(#paint0_linear_1_2)"/>
+<defs>
+<linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1A202C"/>
+<stop offset="1" stop-color="#2D3748"/>
+</linearGradient>
+</defs>
+<style>
+    .title {
+        font-family: 'Inter', sans-serif;
+        font-size: 60px;
+        font-weight: 800;
+        fill: #E2E8F0;
+        text-anchor: middle;
+    }
+    .subtitle {
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        fill: #A0AEC0;
+        text-anchor: middle;
+    }
+    .arrow {
+        stroke: #4A5568;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+    }
+    .arrow-dashed {
+        stroke: #4A5568;
+        stroke-width: 2;
+        stroke-dasharray: 5,5;
+        marker-end: url(#arrowhead);
+    }
+    .box {
+        fill: #2D3748;
+        stroke: #4A5568;
+        stroke-width: 2;
+        rx: 10;
+    }
+    .box-highlight {
+        fill: #2B6CB0;
+        stroke: #4299E1;
+        stroke-width: 2;
+        rx: 10;
+    }
+    .box-text {
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        fill: #E2E8F0;
+        text-anchor: middle;
+    }
+    .box-text-small {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: #A0AEC0;
+        text-anchor: middle;
+    }
+    .section-label {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        fill: #4299E1;
+        text-anchor: middle;
+    }
+</style>
+<text x="600" y="80" class="title">Event Sourcing Explained</text>
+<defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#4A5568"/>
+    </marker>
+</defs>
+<text x="300" y="170" class="section-label">Write Side (Commands)</text>
+<text x="900" y="170" class="section-label">Read Side (Queries)</text>
+<rect x="100" y="200" width="180" height="80" class="box"/>
+<text x="190" y="235" class="box-text">Command</text>
+<rect x="320" y="200" width="180" height="80" class="box-highlight"/>
+<text x="410" y="235" class="box-text">Aggregate</text>
+<text x="410" y="255" class="box-text-small">Command Processor</text>
+<rect x="540" y="200" width="180" height="80" class="box"/>
+<text x="630" y="235" class="box-text">Event</text>
+<path d="M290 240 H 310" class="arrow"/>
+<path d="M510 240 H 530" class="arrow"/>
+<rect x="300" y="320" width="300" height="80" class="box"/>
+<text x="450" y="355" class="box-text">Event Store</text>
+<text x="450" y="375" class="box-text-small">Immutable Append-Only Log</text>
+<path d="M630 290 V 310 H 450" class="arrow"/>
+<rect x="700" y="320" width="180" height="80" class="box"/>
+<text x="790" y="355" class="box-text">Projection</text>
+<text x="790" y="375" class="box-text-small">Event Handler</text>
+<rect x="900" y="320" width="180" height="80" class="box"/>
+<text x="990" y="355" class="box-text">Read Model</text>
+<text x="990" y="375" class="box-text-small">Optimized Views</text>
+<path d="M600 360 V 380 H 690" class="arrow"/>
+<path d="M890 360 H 890" class="arrow"/>
+<text x="600" y="450" class="section-label">State Reconstruction</text>
+<rect x="200" y="480" width="200" height="60" class="box"/>
+<text x="300" y="510" class="box-text-small">Load Events from</text>
+<text x="300" y="525" class="box-text-small">Event Store</text>
+<rect x="450" y="480" width="200" height="60" class="box"/>
+<text x="550" y="510" class="box-text-small">Replay Events to</text>
+<text x="550" y="525" class="box-text-small">Rebuild State</text>
+<rect x="700" y="480" width="200" height="60" class="box"/>
+<text x="800" y="510" class="box-text-small">Current State</text>
+<text x="800" y="525" class="box-text-small">Available</text>
+<path d="M410 510 H 440" class="arrow"/>
+<path d="M660 510 H 690" class="arrow"/>
+<text x="600" y="590" class="subtitle">Complete Audit Trail • Temporal Queries • Flexible Read Models</text>
+</svg>
