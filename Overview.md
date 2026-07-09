@@ -15,9 +15,12 @@
 
 
 
-## Architectural Patterns:
+## Architectural Styles vs Architectural Patterns :
 
-Architectural Patterns are standard ways to structure a software system. They show how the main components are organized, connected, and work together.
+**Architectural Style** => An **architectural style** is a high-level structural approach that defines how components are organized and how they interact.
+
+**Architectural Pattern** => An **architectural pattern**
+
 
 
 
