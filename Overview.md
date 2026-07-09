@@ -19,7 +19,7 @@
 
 **Architectural Style** => An **architectural style** is a high-level structural approach that defines how components are organized and how they interact.
 
-**Architectural Pattern** => An **architectural pattern**
+**Architectural Pattern** => An **architectural pattern** is a way to solve a software architecture problem.
 
 
 
